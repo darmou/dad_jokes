@@ -1,0 +1,17 @@
+.RatingButton {
+    margin-right: 20px;
+    cursor: pointer;
+    border: none;
+    outline:none;
+    display: inline-flex;
+    align-items: center;
+    font-size: 19px;
+}
+
+.RatingButton img {
+    margin-right: 10px;
+}
+
+.RatingButton::-moz-focus-inner {
+    border: 0;
+}

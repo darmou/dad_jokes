@@ -1,0 +1,1 @@
+export const RatingButtonTypes={FUNNY:'FUNNY',NOT_FUNNY:'NOT_FUNNY'};

@@ -1,0 +1,19 @@
+.App-header {
+    height: 30px;
+    padding: 20px;
+}
+
+.App-title {
+    font-size: 1.5em;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+
+.content {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
