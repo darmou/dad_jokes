@@ -44,10 +44,7 @@ class Home extends React.Component {
       await this.props.updateJoke(this.props.joke, this.state.editId);
       this.props.history.push('/jokes');
     }
-
     this.props.fetchJoke();
-
-
   }
 
   render() {

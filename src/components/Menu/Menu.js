@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Menu.css";
+import PropTypes from "prop-types";
 
 const Menu = (props) => {
 
@@ -23,5 +24,14 @@ const Menu = (props) => {
 
   );
 };
+
+
+Menu.propTypes = {
+  menuItems: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    path: PropTypes.string.isRequired,
+    text: PropTypes.string.isRequired
+  }).isRequired).isRequired,
+}
 
 export default Menu;
