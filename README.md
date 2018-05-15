@@ -12,6 +12,10 @@ You can click on jokes in the summary page to edit their rating.
 
 In the project directory, you can run:
 
+### `yarn install`
+
+Install all the node modules, must be run before `yarn start`
+
 ### `yarn start`
 
 Runs the app in the development mode.<br>
@@ -22,3 +26,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ### `yarn test`
 
 Runs the test suite
+
+
