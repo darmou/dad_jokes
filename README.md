@@ -8,6 +8,11 @@ The home path will show a random joke, rating it will add it to the summary page
 
 You can click on jokes in the summary page to edit their rating.
 
+
+## Before Running The Project
+
+Please make you have node version `v9.5.0` installed and yarn version `1.6.0`.
+
 ## Available Scripts
 
 In the project directory, you can run:
